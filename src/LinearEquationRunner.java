@@ -31,11 +31,9 @@ public class LinearEquationRunner {
             System.out.println();
 
             // Creates a new coordinate with an inputted x-value
-            if (x1 != x2) {
-                System.out.print("Enter a value for x: ");
-                double testX = scan.nextDouble();
-                System.out.println("The point on the line is: " + line.coordinateForX(testX));
-            }
+            System.out.print("Enter a value for x: ");
+            double testX = scan.nextDouble();
+            System.out.println("The point on the line is: " + line.coordinateForX(testX));
         }
     }
 }
